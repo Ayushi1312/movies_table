@@ -1,0 +1,36 @@
+.modal-container{
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+    border-left: thin solid #e1e1e1;
+    border-right: thin solid #e1e1e1;
+    padding: 25px;
+    z-index: 9;
+}
+
+.modal-heading{
+    display: inline-block;
+}
+
+.close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 30px;
+}
+
+.modal-container h5 {
+    color: blueviolet;
+}
+
+.pagination{
+    float: right;
+}
+
+.pagination span{
+    font-size: 22px;
+}
+
